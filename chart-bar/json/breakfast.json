@@ -1,0 +1,39 @@
+{
+   "breakfast": [
+        {
+            "ingredient": "1870",
+            "amount": 4.3,
+            "color": "rgb(255,100,100)"
+        },
+        {
+            "ingredient": "1875",
+            "amount": 5.5,
+            "color": "rgb(190,231,184)"
+        },    
+        {
+            "ingredient": "1880",
+            "amount": 6.8,
+            "color": "rgb(100,100,255)"
+        },
+        {
+            "ingredient": "1885",
+            "amount": 5.5,
+            "color": "rgb(255,255,100)"
+        },
+        {
+            "ingredient": "1890",
+            "amount": 2.5,
+            "color": "rgb(68.187.164)"
+        },
+        {
+            "ingredient": "1895",
+            "amount": 1.7,
+            "color": "rgb(142,184,229)"
+        },
+        {
+            "ingredient": "1990",
+            "amount": 1.0,
+            "color": "rgb(255,164,48)"
+        }
+    ]
+}

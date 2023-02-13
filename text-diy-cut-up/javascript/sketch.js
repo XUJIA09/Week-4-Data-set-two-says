@@ -10,10 +10,14 @@ let jsonDocuments = [
 let canvas;
 let files = [];
 let displayText = "";
+let img;
 
 //data structure
 let phrases = []; // for cut up generator
 
+function preload() {
+  img = loadImage("sea.jpg");
+}
 
 function setup() {
   canvas = createCanvas(500, 500);
@@ -25,7 +29,7 @@ function setup() {
 
 function draw() {
   background(200);
-
+  image(img,150,240);
   if(loadbar < jsonDocuments.length){
 
     let barLength = width*0.5;
@@ -112,7 +116,7 @@ function loadFile(index){
       console.log(data);
       files.push(data);
 
-      showText("Training text number " + (index+1));
+      showText("Introduction");
       showText(data.text);
   
       loadbar ++;
